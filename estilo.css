@@ -1,7 +1,7 @@
 body {
     background: rgb(49, 99, 163);
     font: normal 15pt Arial;
-    font-family: 'Allura', cursive, 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -11,10 +11,6 @@ header {
 
 section {
     background: white;
-    border-radius: 10px;
-
-
-
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.39);
 }
 
@@ -23,12 +19,13 @@ footer {
     text-align: center;
     font-style: italic;
     padding-top: 1.5rem;
+    font-size: 1rem;
 }
 
 h1 {
     font-family: 'Allura', cursive, 'Roboto', sans-serif;
     text-align: center;
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .convite {
@@ -37,10 +34,17 @@ h1 {
     padding-top: 2rem;
 }
 
-.pegar{
+.pegar {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     color: rgb(53, 53, 53);
-    
 }
 
+.btn {
+    margin-bottom: 1rem;
+}
 
+#res {
+    color: darkmagenta;
+    font-family: 'Allura', cursive, 'Roboto', sans-serif;
+}

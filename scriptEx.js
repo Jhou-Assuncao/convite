@@ -5,7 +5,7 @@ function receber() {
     n = (nome.value)
 
     if (n == 'Bruna' || n == 'BRUNA' || n == 'bruna') {
-        res.innerHTML = `<strong>${n}</strong>, quer se casar comigo?`
+        res.innerHTML = `<p><strong>${n}</strong>, quer se casar comigo?</p>`
         var img = document.createElement('img') //criar imagem
         img.setAttribute('id', 'foto')
         img.setAttribute('src', 'pedido1.jpg')
@@ -16,3 +16,4 @@ function receber() {
     }
     res.appendChild(img)
 }
+
