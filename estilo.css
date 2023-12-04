@@ -48,3 +48,10 @@ h1 {
     color: darkmagenta;
     font-family: 'Allura', cursive, 'Roboto', sans-serif;
 }
+
+#diferencaDias{
+    padding: 1rem 0 1rem 0;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: gray;
+}
